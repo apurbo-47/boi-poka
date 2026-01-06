@@ -48,40 +48,42 @@ const BookDetails = () => {
           <p className="font-medium text-lg text-[#13131380] mt-4 mb-6">
             By : {author}
           </p>
-          <div className="border-t-1 border-dashed "></div>
+          <div className="border-t-2 border-lime text-[#13131315] "></div>
           <div className="mt-4 mb-4 font-medium text-xl">{category}</div>
-          <div className="border-t-1 border-dashed "></div>
+          <div className="border-t-2 border-line text-[#13131315] "></div>
           <p className="font-medium text-sm text-[#13131380] mt-6 mb-6">
             <span className="font-bold text-lg text-black">Review :</span>{" "}
             {review}
           </p>
 
           <div className="flex  gap-x-4 mb-6">
-            Tag :{" "}
+            <span className="text-base font-bold text-[#131313]"> Tag : </span>
             {tags.map((tag) => (
-              <button>{tag}</button>
+              <button className="text-[#23BE0A] font-medium text-base">
+                # {tag}
+              </button>
             ))}
           </div>
-          <div className="border-t-1 border-dashed "></div>
-          <div className="mt-6 mb-8 font-semibold text-lg">
+          <div className="border-t-2 border-line text-[#13131315] "></div>
+          <div className="mt-6 mb-8 font-semibold text-base text-[#131313]">
             <p>
               <span className="text-md text-[#13131380]">
-                Number of Pages :
+                Number of Pages :{" "}
               </span>
               {totalPages}
             </p>
             <p>
-              <span className="text-md text-[#13131380]">Publisher :</span>
+              <span className="text-md text-[#13131380]">Publisher : </span>{" "}
               {publisher}
             </p>
             <p>
               <span className="text-md text-[#13131380]">
-                Year of Publishing :
+                Year of Publishing :{" "}
               </span>
               {yearOfPublishing}
             </p>
             <p>
-              <span className="text-md text-[#13131380]">Rating :</span>
+              <span className="text-md text-[#13131380]">Rating : </span>
               {rating}
             </p>
           </div>

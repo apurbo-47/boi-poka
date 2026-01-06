@@ -5,17 +5,17 @@ const Navbar = () => {
   const links = (
     <>
       <Link to="/">
-        <button className="m-3 bg-green-400 p-3 text-white rounded-lg">
+        <button className="m-3 bg-[#23BE0A] p-3 text-white rounded-2xl">
           Home
         </button>
       </Link>
       <Link to="/about">
-        <button className="m-3 bg-green-400 p-3 text-white rounded-lg">
+        <button className="m-3 bg-[#23BE0A] p-3 text-white rounded-2xl">
           About
         </button>
       </Link>
       <Link to="/readList">
-        <button className="m-3 bg-green-400 p-3 text-white rounded-lg">
+        <button className="m-3 bg-[#23BE0A] p-3 text-white rounded-2xl">
           Read List
         </button>
       </Link>
@@ -58,7 +58,7 @@ const Navbar = () => {
         <ul className="menu menu-horizontal px-1 ">{links}</ul>
       </div>
       <div className="navbar-end">
-        <a className="btn bg-[#50B1C9] border-hidden rounded-lg">Sign in</a>
+        <a className="btn bg-[#50B1C9] border-hidden rounded-2xl">Sign in</a>
       </div>
     </div>
   );
