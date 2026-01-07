@@ -41,8 +41,10 @@ const BookDetails = () => {
   return (
     <div className=" ">
       <div className="flex justify-around gap-20">
-        <img className="w-80" src={image} alt="" />
-        <div>
+        <div className="w-full flex justify-center items-center bg-[#131313]/5 rounded-2xl">
+          <img className="w-80" src={image} alt="" />
+        </div>
+        <div className="w-full">
           <h5 className="text-4xl font-bold">{bookName}</h5>
           <ToastContainer />
           <p className="font-medium text-lg text-[#13131380] mt-4 mb-6">

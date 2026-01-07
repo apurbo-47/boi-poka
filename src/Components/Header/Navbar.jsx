@@ -5,25 +5,19 @@ const Navbar = () => {
   const links = (
     <>
       <Link to="/">
-        <button className="m-3 bg-[#23BE0A] p-3 text-white rounded-2xl">
-          Home
-        </button>
+        <button className="m-4  text-lg text-[#131313]/80">Home</button>
       </Link>
       <Link to="/about">
-        <button className="m-3 bg-[#23BE0A] p-3 text-white rounded-2xl">
-          About
-        </button>
+        <button className="m-4  text-lg text-[#131313]/80">About</button>
       </Link>
       <Link to="/readList">
-        <button className="m-3 bg-[#23BE0A] p-3 text-white rounded-2xl">
-          Read List
-        </button>
+        <button className="m-4  text-lg text-[#131313]/80">Read List</button>
       </Link>
     </>
   );
 
   return (
-    <div className="navbar bg-white text-[black] shadow-sm mb-20">
+    <div className="navbar bg-white text-[black]  mb-20">
       <div className="navbar-start">
         <div className="dropdown">
           <div tabIndex={0} role="button" className="btn btn-ghost lg:hidden">
@@ -34,13 +28,12 @@ const Navbar = () => {
               viewBox="0 0 24 24"
               stroke="currentColor"
             >
-              {" "}
               <path
                 strokeLinecap="round"
                 strokeLinejoin="round"
                 strokeWidth="2"
                 d="M4 6h16M4 12h8m-8 6h16"
-              />{" "}
+              />
             </svg>
           </div>
           <ul

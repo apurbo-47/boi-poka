@@ -2,7 +2,7 @@ import React from "react";
 import bookimage from "../../assets/books.jpg";
 const Banner = () => {
   return (
-    <div className="hero  h-[450px] mt-12 mb-20 bg-gray-100 text-[black] ">
+    <div className="hero  h-[450px] mt-12 mb-20 bg-gray-100 text-[black] rounded-2xl ">
       <div className="hero-content flex-col lg:flex-row-reverse gap-20">
         <img src={bookimage} className="max-w-sm rounded-lg shadow-2xl" />
         <div>
